@@ -1,0 +1,17 @@
+.post__image {
+    width: 100%; /*to make it responsive it must be 100% procent*/
+    object-fit: contain;
+}
+.post__text{
+    font-weight: normal;
+}
+
+.post__header{
+    display: flex;
+    align-items: center;
+    padding:20px;
+}
+
+.post__avatar{
+    margin-right: 10px;
+}
