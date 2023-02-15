@@ -1,10 +1,14 @@
 .post{
     background-color: white;
     max-width: 500px; /*make it stay in 500px not get biger with the whole screen)*/
+    border: 1px solid lightgray;
+    margin-bottom: 45px ; 
 }
 .post__image {
     width: 100%; /*to make it responsive it must be 100% procent*/
     object-fit: contain;
+    border-top: 1px solid lightgray ;
+    border-bottom:  1px solid lightgray;
 }
 .post__text{
     font-weight: normal;
@@ -14,7 +18,7 @@
 .post__header{
     display: flex;
     align-items: center;
-    padding:20px 10px 0 0 ;
+    padding: 20px ;
 }
 
 .post__avatar{

@@ -8,9 +8,6 @@ height: 100vh;
 
 }
 
-.app__headerImage {
-  size-adjust: 10px;
-}
 .app__header {
   background-color: white;
   padding: 20px;
