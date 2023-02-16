@@ -68,7 +68,7 @@ useEffect(() => {
   onClose={()=> setOpen(false)}
   >
     <div style={modalStyle} className={classes.paper}>
-    <h2>doing signUp!!!</h2>
+    <h2>doing signUp!!</h2>
     </div>
   </Modal>
 
